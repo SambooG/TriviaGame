@@ -40,52 +40,89 @@ function stop(){
     $("#correct-answers").text(correct);
     $("#wrong-answers").text(incorrect);
     // if the checked option matches the answer (repeat for all questions)
-    if(("input[name= question1-option]:checked").val() === question1Answer){
+    if($("input[name= question1-option]:checked").val() === question1Answer){
         // Add a correct
         correct++;
         // Show the user the correct
     }
-    if(("input[name= question2-option]:checked").val() === question2Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+    }
+    if($("input[name= question2-option]:checked").val() === question2Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question3-option]:checked").val() === question3Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question3-option]:checked").val() === question3Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question3-option]:checked").val() === question4Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question3-option]:checked").val() === question4Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question3-option]:checked").val() === question5Answer){
+    else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question3-option]:checked").val() === question5Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question3-option]:checked").val() === question6Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question3-option]:checked").val() === question6Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question3-option]:checked").val() === question7Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question3-option]:checked").val() === question7Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
     }
-    if(("input[name= question4-option]:checked").val() === question8Answer){
+        else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+        }
+    if($("input[name= question4-option]:checked").val() === question8Answer){
                     // Add a correct
         correct++;            
-                    // Show the user the correct
+        // Show the user the correct
     }
-                    // else 
-        else{
-                    // Add an incorrect
-            incorrect++;
-                   // Show the user the incorrect
-            }
+    // else 
+    else{
+        // Add an incorrect
+        incorrect++;
+        // Show the user the incorrect
+    }
+    $("#correct-answers").text(correct);
+    $("#wrong-answers").text(incorrect);
 }  
 
     
