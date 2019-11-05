@@ -70,7 +70,7 @@ function stop(){
         incorrect++;
         // Show the user the incorrect
         }
-    if($("input[name= question3-option]:checked").val() === question4Answer){
+    if($("input[name= question4-option]:checked").val() === question4Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
@@ -80,7 +80,7 @@ function stop(){
         incorrect++;
         // Show the user the incorrect
         }
-    if($("input[name= question3-option]:checked").val() === question5Answer){
+    if($("input[name= question5-option]:checked").val() === question5Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
@@ -90,7 +90,7 @@ function stop(){
         incorrect++;
         // Show the user the incorrect
         }
-    if($("input[name= question3-option]:checked").val() === question6Answer){
+    if($("input[name= question6-option]:checked").val() === question6Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
@@ -100,7 +100,7 @@ function stop(){
         incorrect++;
         // Show the user the incorrect
         }
-    if($("input[name= question3-option]:checked").val() === question7Answer){
+    if($("input[name= question7-option]:checked").val() === question7Answer){
                     // Add a correct
         correct++;
                     // Show the user the correct
@@ -110,7 +110,7 @@ function stop(){
         incorrect++;
         // Show the user the incorrect
         }
-    if($("input[name= question4-option]:checked").val() === question8Answer){
+    if($("input[name= question8-option]:checked").val() === question8Answer){
                     // Add a correct
         correct++;            
         // Show the user the correct
