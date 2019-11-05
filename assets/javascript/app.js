@@ -2,7 +2,15 @@ let timeRemaining = 40;
 let intervalId;
 let correct = 0
 let incorrect = 0
-let question1Answer = 'Wildwood'
+let question1Answer = "West-Caldwell"
+let question2Answer = "NYU"
+let question3Answer = "Seattle"
+let question4Answer = "Sil"
+let question5Answer = "The-Bing"
+let question6Answer = "Dr-Melfi"
+let question7Answer = "Stugots"
+let question8Answer = "ducks"
+
 
 
 function decrement() {
