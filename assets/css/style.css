@@ -1,4 +1,29 @@
 
 body{
-    background: url("../assets/images/images.jpeg");
+    background: url("./../images/images\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: rgb(146, 16, 16)
+}
+
+.question-container{
+    color: rgb(146, 16, 16);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+#time-remaining, #correct-answers, #wrong-answers{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.timer, .the-final{
+    font-size: 60px;
+    font-weight: 60px;
 }

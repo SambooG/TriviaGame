@@ -1,4 +1,4 @@
-let timeRemaining = 20;
+let timeRemaining = 30;
 let intervalId;
 let correct = 0;
 let incorrect = 0;
@@ -28,14 +28,6 @@ function stop(){
     // take away the timer --> set timer to not display by targeting "#time-remaining" similar to questions
     $("#time-remaining").hide()
     // Get the answers the user selected for each question i.e. ->  $('input[name=question1-option]:checked').val();
-    $("input[name= question1-option]:checked").val()
-    $("input[name= question2-option]:checked").val()
-    $("input[name= question3-option]:checked").val()
-    $("input[name= question4-option]:checked").val()
-    $("input[name= question5-option]:checked").val()
-    $("input[name= question6-option]:checked").val()
-    $("input[name= question7-option]:checked").val()
-    $("input[name= question8-option]:checked").val()
     //show correct anser once
     $("#correct-answers").text(correct);
     $("#wrong-answers").text(incorrect);
